@@ -1,0 +1,142 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Inicio del Menú de Navegación Gral */
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 35px;
+}
+
+li:hover {
+    background-color: rgba(128, 122, 122, 0.288);
+    transform: rotate(360deg);
+    border-bottom: 3px solid $color-primary;
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: $walter-white;
+}
+
+a:hover {
+    color: $color-primary;
+}
+/* Final del Menú de Navegación Gral */
+
+/* Inicio del Index */
+.margin-index {
+    margin-top: 150px;
+    margin-left: 250px;
+}
+
+.main-title {
+    font-size: 5.5em;
+    color: $color-primary;
+}
+
+.size-p {
+    font-size: 1.5em;
+    color: $anastasia-greyXDXD;
+}
+/* Fin del Index */
+
+/* Inicio Page/contacto */
+.title-contact {
+    text-align: center;
+    margin-top: 100px;
+    color: $color-primary;
+    font-size: $Aguante-Bautista-Castets;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px 40px;
+}
+
+.contact-form {
+    min-width: 400px;
+    flex: 1;
+    text-align: center;
+}
+
+.input-form {
+    width: 40%;
+    padding: 7px;
+    margin: 7px 0;
+    border: none;
+    border-bottom: 3px solid $color-primary;
+    background-color: #96969673;
+    color: $walter-white;
+}
+
+.input-form::placeholder {
+    color: $black-espresso;
+}
+
+.input-form:focus {
+    outline: none;
+}
+
+.contact-form textarea {
+    min-height: 180px;
+    resize: none;
+}
+
+.input-bottom {
+    width: 41%;
+    padding: 7px;
+    margin: 7px 0;
+    border: none;
+    background-color: $color-primary;
+}
+
+.input-bottom:hover {
+    background-color: $color-secundary;
+    color: $walter-white;
+}
+
+.input-bottom:active {
+    background-color: $color-primary;
+}
+/* Fin Page/contacto */
+
+/* Inicio del Pie de Página Gral */
+div footer {
+    background-color: $black-espresso;
+    width: 100%;
+    height: 300px;    
+    position: relative;
+    bottom: 0;
+}
+
+footer p {
+    color: $anastasia-greyXDXD;
+    text-align: center;
+}
+/* Final del Pie de Página Gral */
+
+.bgi {
+    background-image: url(../public/img/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+}
+
+.bgi-1 {
+    background-image: url(../public/img/latte-coffee.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 1270px;   
+}
