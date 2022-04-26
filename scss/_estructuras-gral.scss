@@ -115,10 +115,8 @@ a:hover {
 /* Inicio del Pie de Página Gral */
 div footer {
     background-color: $black-espresso;
-    @mixin sizes { ($width, height,)
-        width: $width;
-        height: $height;
-    }   
+    width: 100%;
+    height: 300px;    
     position: relative;
     bottom: 0;
 }
